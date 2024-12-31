@@ -49,7 +49,7 @@ def criar_interface():
     janela.title("Atualizar previsão")
 
     # Título na interface
-    titulo = tk.Label(janela, text="Atualizar previsão na planilha:", font=("Arial", 14, "bold"))
+    titulo = tk.Label(janela, text="Atualizar previsão na planilha", font=("Arial", 14, "bold"))
     titulo.pack(pady=10)
 
     # Botão para executar a captação
